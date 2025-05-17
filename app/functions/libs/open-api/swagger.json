@@ -10,7 +10,20 @@
         "description": "Returns the hello world",
         "responses": {
           "200": {
-            "description": "Hello World!"
+            "description": "Hello World!",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string",
+                      "example": "Hello World!"
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }

@@ -10,7 +10,7 @@ const createJestConfig = nextJest({
 // Add any custom config to be passed to Jest
 const config: Config = {
   coverageProvider: "v8",
-  testEnvironment: "jsdom",
+  testEnvironment: "node", // jsdomからnodeに変更する必要があったためtsxファイルのテストはできない
   preset: "ts-jest",
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/app/$1",
