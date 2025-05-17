@@ -21,5 +21,9 @@
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
     "@eslint/eslintrc": "^3"
+  },
+  "volta": {
+    "node": "23.6.0",
+    "npm": "11.2.0"
   }
 }
